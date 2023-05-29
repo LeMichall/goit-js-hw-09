@@ -26,7 +26,7 @@ const options = {
 };
 function timerHandler() {
   startBtn.disabled = true;
-  timerId = setInterval(() => {
+  const timerId = setInterval(() => {
     const timeDiff = chosenDate - new Date();
     if (timeDiff <= 0) {
       clearInterval(timerId);
