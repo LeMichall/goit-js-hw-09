@@ -22,5 +22,9 @@ img {
 .field {
   display: flex;
   flex-direction: column;
-  border: 3px, solid, black;
+  border: 5px, solid, black;
+  margin-top: 10px;
+}
+.field:not(:first-child) {
+  margin-left: 15px;
 }
